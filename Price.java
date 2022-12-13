@@ -1,6 +1,6 @@
 public abstract class Price {
     public abstract int getPriceCode();
-
+    
     public double getCharge(int daysRented){
         switch (each.getMovie().getPriceCode()) {
             case Movie.REGULAR:
@@ -18,4 +18,8 @@ public abstract class Price {
                 break;
          }
     }
+    
+    public abstract double getCharge(int daysRented);
+
+    
  }
