@@ -29,4 +29,7 @@ public abstract class Price {
            each.getDaysRented() > 1) frequentRenterPoints ++;
      }
     
+     public int getFrequentRenterPoints(int daysRented) {
+        return 1;
+    }
  }
