@@ -1,7 +1,7 @@
 public abstract class Price {
     public abstract int getPriceCode();
     
-    public double getCharge(int daysRented){
+    public abstract double getCharge(int daysRented){
         switch (each.getMovie().getPriceCode()) {
             case Movie.REGULAR:
                thisAmount += 2;
